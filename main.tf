@@ -16,7 +16,7 @@ resource "intersight_ntp_policy" "ntp_policy" {
   name        = "tf_cloud_demo_andrwon2"
   description = "Policy Created using no variables"
   enabled     = true
-  ntp_servers = ["1.1.1.1", "2.2.2.4"]
+  ntp_servers = ["1.1.1.1", "2.2.2.2"]
   timezone    = "America/Los_Angeles"
   organization {
     object_type = "organization.Organization"
